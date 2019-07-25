@@ -36,4 +36,11 @@ char_logical <-c("a", "b", "c", TRUE)
 tricky <-c(1,2,3,"4")
 combined_logical <-c(num_logical,char_logical)
 
+respondent_wall_type[2]
+respondent_wall_type[c(3,2)]
 
+
+more_respondent_wall-type <- respondent_wall_type[c(1,2,3,2,1,3)]
+
+no_membrs[no membrs> 5] 
+no_membrs[no membrs<3|no_membrs > 5] 
