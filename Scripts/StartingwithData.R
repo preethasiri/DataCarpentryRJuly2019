@@ -72,12 +72,19 @@ as.character(floor_type)
 
 
 year_fct <- factor(c(1990, 1983, 1977, 1998,1990 ))
-as.numeric(year_fct)
-as.numeric(as.character(year_fct)) 
+as.numeric(year_fact)
+as.numeric(as.character(year_fact)) 
 
 
 year_numb <- as.numeric(levels(year_fct)) [year_fct]
 table(year_nmb)
-table(year_fct)
+table(year_fact)
 summary(year_fct)
 
+
+affect_conflicts <-interviews$affect_conflicts
+affect_conflicts[is.na (as.factor(affect_conflicts)],<-"undermined"
+affect_conflicts [is.na (as.factor(affect_conflicts) 
+plot(affect_conflicts)
+
+levels(affect_conflicts)
