@@ -39,7 +39,9 @@ ggplot(data = Interviews_plotting,aes(x=respondent_wall_type, y=liv_count, color
 ggplot(Interviews_plotting, aes (x=respondent_wall_type)) +
 geom_bar(aes(fill=village), position = "dodge") 
 labs (X ="wall type",y="Count")+
-facet_grid(memb_assoc~village)+theme (axis.text.x=element_text(angle = 9))
+facet_grid(memb_assoc~village)+theme (axis.text.x=element_text(angle = 90))
+
+
 
 
 
